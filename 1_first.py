@@ -16,16 +16,33 @@ multiple
 lines
 """
 
+"""
+Also 
+Multiple 
+comment
+"""
+
+
 # print() is used to print any message or variable
 
 print("Hello this is my first program")
 
-name="Vikrant"
-
+name = "Vikrant"
+age = 30
 print(name)
 
-# String and variable concatenation
-print("Name :",name)
+# String and variable concatenation with comma
+print("Name :", name, "and Age : ", age)
 
-# Formatted print
-print(f"Name : {name}")
+# f-string
+print(f"Name : {name} and Age {age}")
+
+# Format method
+print("My name is {} and my age is {}".format(name, age))
+
+# User Input
+name = input("Enter name :")
+print(f"My name is {name}")
+
+age = int(input("Enter age : "))
+print(f"My age is {age}")
