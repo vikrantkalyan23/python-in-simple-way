@@ -21,4 +21,24 @@ print("Second Element of string : ", str1[1])
 #   V   I   K   R   A   N   T
 #   -7  -6  -5  -4  -3  -2  -1      ## Reverse/Negative Indexing
 
+
 # Slicing
+# result = stringVariable[startIndex:endIndex]
+
+name = "Vikrant Kumar"
+print(name[3:])     # from 3rd index to end of string
+print(name[:10])    # from 0th index to 9th (10th not included)
+print(name[2:5])
+
+print(name[-7:])
+print(name[:-3])
+print(name[-7:-2])
+
+# Library functions 
+print("Length of string :",len(name))
+print(name.isnumeric())
+print(name.startswith("V"))
+print(name.find("a"))
+print(name.endswith("r"))
+print(name.split(" "))
+
