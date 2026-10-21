@@ -12,6 +12,15 @@ print(str1 + " " + str2)
 print(str1 + "\n" + str2)
 print(f"{str1} {str2}")
 
+# Multiline String
+str3 ="""
+This is a 
+multiline
+string
+"""
+print(str3)
+
+
 # Indexing of String
 
 print("First Element of string : ", str1[0])
@@ -42,3 +51,10 @@ print(name.find("a"))
 print(name.endswith("r"))
 print(name.split(" "))
 
+a = "Hello, World!"
+print(a.replace("H", "J"))
+
+a = " Hello, World! "
+print(a.strip())
+print(a.upper())
+print(a.lower())
