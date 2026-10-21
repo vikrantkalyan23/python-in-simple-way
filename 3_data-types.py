@@ -1,9 +1,9 @@
 # String
 
 name = "Vikrant"
-name_1 = "Vikrant"
+name_1 = 'Vikrant'
 name_2 = """Vikrant"""
-name_3 = """Vikrant"""
+name_3 = '''Vikrant'''
 
 print(name, name_1, name_2, name_3)
 print(type(name))

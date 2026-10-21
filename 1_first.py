@@ -6,19 +6,20 @@ Python is case sensitive, means name and Name treated as different.
 """
 
 # Single Line Comment
+
 """ 
-----Multiple Comment---
+----Multi-line Comment---
 
 Used
 to 
 comment
-multiple
+Multi-line
 lines
 """
 
 """
 Also 
-Multiple 
+Multi-line 
 comment
 """
 
