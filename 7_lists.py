@@ -109,3 +109,25 @@ while i < len(thisList):
 # Looping Using List Comprehension
 
 [print(x) for x in thisList]
+
+## ------- List Comprehension ---------
+# List comprehension offers a shorter syntax 
+
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+newList = []
+
+for x in fruits:
+  if "a" in x:
+    newList.append(x)
+
+print(newList) # containing only the fruits with the letter "a" in the name.
+
+# With list comprehension
+"""The Syntax
+list = [expression for item in iterable if condition == True]"""
+
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+newList1 = [x for x in fruits if "a" in x]
+print(newList1)
+
+
