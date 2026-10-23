@@ -55,6 +55,6 @@ a = "Hello, World!"
 print(a.replace("H", "J"))
 
 a = " Hello, World! "
-print(a.strip())
+print(a.strip())    # remove space from beginning and end  
 print(a.upper())
 print(a.lower())

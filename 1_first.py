@@ -17,14 +17,7 @@ Multi-line
 lines
 """
 
-"""
-Also 
-Multi-line 
-comment
-"""
-
-
-# print() is used to print any message or variable
+# print() is used to display/print any message or variable value
 
 print("Hello this is my first program")
 

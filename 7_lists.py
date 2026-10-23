@@ -23,5 +23,25 @@ print(len(list1))
 # Sorting
 
 list3 = [2, 5, 1, 3, 7, 11, 10, 24, 50, 22]
-list3.sort() # for reverse sorting .sort(reverse=True)
+list3.sort()  # for reverse sorting .sort(reverse=True)
 print(list3)
+
+# Update List
+
+list3[2] = 15
+print(list3)
+
+# Add Item
+
+list3.append(21)  # Append
+print(list3)
+
+list3.insert(2, 33)  # Insert at any index
+print(list3)
+
+# Remove Item
+
+list3.remove(33)  # Remove by value
+print(list3)
+
+list3.pop(2)  # Remove by index

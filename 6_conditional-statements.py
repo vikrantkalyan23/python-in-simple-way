@@ -21,11 +21,11 @@ elif day == 7:
     print("Saturday")
 else:
     print("Invalid Input")
-    
-    
+
+
 # Match Statement
 
-match(day):
+match day:
     case 1:
         print("Sunday")
     case 2:
@@ -42,5 +42,3 @@ match(day):
         print("Saturday")
     case _:
         print("Invalid Input")
-    
-        
