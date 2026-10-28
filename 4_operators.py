@@ -14,12 +14,12 @@ print("Exponent : ", 5**4)
 a = 10
 b = 12
 print("--------Comparison / Relational Operators--------")
-print("Equals to :", a == b)
-print("Not Equals to : ", a != b)
-print("Less than : ", a < b)
-print("Greater than : ", a > b)
-print("Less than or equals to : ", a <= b)
-print("Greater than or equals to : ", a >= b)
+print("A is Equals to B :", a == b)
+print("A is Not Equals to B : ", a != b)
+print("A is Less than B : ", a < b)
+print("A is Greater than B : ", a > b)
+print("A is Less than or equals to B : ", a <= b)
+print("A is Greater than or equals to B : ", a >= b)
 
 # Assignment Operators
 num_1 = 10
