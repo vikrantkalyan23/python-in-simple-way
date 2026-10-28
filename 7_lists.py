@@ -34,7 +34,7 @@ print(len(list1))
 
 list3 = [2, 5, 1, 3, 7, 11, 10, 24, 50, 22]
 list3.sort()  # for reverse sorting .sort(reverse=True)
-print(list3)
+print("Use of sort() : ",list3)
 
 # Check if Item Exists
 
@@ -48,10 +48,10 @@ print(list3)
 # Add Item
 
 list3.append(21)  # Append
-print(list3)
+print("Use of append() : ",list3)
 
 list3.insert(2, 33)  # Insert at second index
-print(list3)
+print("Use of insert() : ",list3)
 
 # Extend List -> To append elements from another list to the current list, use the extend() method.
 # The extend() method does not have to append lists, you can add any iterable object (tuples, sets, dictionaries etc.).
@@ -59,17 +59,17 @@ print(list3)
 thisList = ["apple", "banana", "cherry"]
 tropical = ["mango", "pineapple", "papaya"]
 thisList.extend(tropical)
-print(thisList)
+print("Use of extend() : ",thisList)
 
 thisList = ["apple", "banana", "cherry"]
 thisTuple = ("kiwi", "orange")
 thisList.extend(thisTuple)
-print(thisList)
+print("Use of extend() : ", thisList)
 
 # Remove List Items -> The remove() method removes the specified item
 
 list3.remove(33)  # Remove by value
-print(list3)
+print("Use of remove() : ",list3)
 
 list3.pop(2)  # Remove Specified Index
 
@@ -77,7 +77,7 @@ list3.pop(2)  # Remove Specified Index
 
 thisList = ["apple", "banana", "cherry"]
 del thisList[0]
-print(thisList)
+print("Use of pop() and del : ", thisList)
 
 # The del keyword can also delete the list completely.
 thisList = ["apple", "banana", "cherry"]
@@ -85,7 +85,7 @@ del thisList
 
 # Clear the List -> The clear() method empties the list. The list still remains, but it has no content.
 tropical.clear()
-print(tropical)
+print("Use of clear() : ",tropical)
 
 # Loop Through a List
 
