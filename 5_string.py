@@ -58,3 +58,37 @@ a = " Hello, World! "
 print(a.strip())    # remove space from beginning and end  
 print(a.upper())
 print(a.lower())
+
+# stringName[startIndex:endIndex:skipCharacters]
+
+print(a[::-1]) # Reverse String
+
+# String Methods (Cleaning, Formatting, Validation, Transformation)
+
+# strip(), lstrip(), rstrip()
+
+# replace()
+
+# upper(), lower(), title()
+
+# split(), join()
+
+# isNumeric()
+
+# startsWith()
+
+# endWith()
+
+# count()
+
+# find()
+
+# index()
+
+email = "sample@vikrant.com"
+domain = email[email.find("@")+1:]
+print(domain)
+
+priceTxt ="Price:  ₹240/-"
+cleanedPrice=priceTxt.replace("Price:","").replace("₹","").replace("/-","").strip()
+print(cleanedPrice)
