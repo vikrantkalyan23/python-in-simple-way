@@ -38,3 +38,13 @@ print("--------Logical Operators--------")
 print("AND operator : ", cond1 and cond2)
 print("OR operator : ", cond1 or cond2)
 print("NOT operator : ", not cond1 )
+
+
+# Identity Operators (is, is not)
+a1=10
+b1=a1
+print(a1 is b1)
+
+
+# Membership Operators (in, not in)
+print("A is exist in Apple", "A" in "Apple")
