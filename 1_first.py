@@ -5,6 +5,8 @@ Python is case sensitive, means name and Name treated as different.
 
 """
 
+# Indentation is used in Python for Block
+
 # Single Line Comment
 
 """ 
